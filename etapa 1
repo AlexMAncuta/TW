@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+ <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+<link rel="icon" type="image/svg+xml" href="favicon/favicon.svg">
+<link rel="shortcut icon" href="favicon/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="manifest" href="favicon/site.webmanifest">
+
+<meta name="msapplication-TileColor" content="#1f7a7a">
+<meta name="theme-color" content="#1f7a7a">
+
+
+
+  <meta name="author" content="Ancuta Mario Alexandru">
+  <meta name="keywords" content="instrumente muzicale, chitare, tobe, pian, magazin muzică, MusicHUB">
+  <meta name="description" content="MusicHub este un magazin de instrumente muzicale unde găsești chitare, piane, tobe și accesorii de calitate.">
+
+  <title>MusicHUB</title>
+</head>
+
+<body>
+  <header>
+    <h1>MusicHUB</h1>
+    <nav>
+      <ul>
+        <li><a href="#acasa">Acasă</a></li>
+      </ul>
+    </nav>
+       <ul>
+            <li><a href="#categorii_de_produse">Categorii de produse</a></li>
+        <li><a href="#noutati">Noutăți</a></li>
+
+       </ul>
+    <ul>
+      
+      <li><a href="#despre-noi">Despre noi</a></li>
+       <li><a href="#contact">Contact</a></li>
+        <li><a href="#servicii">Servicii</a></li>
+    </ul>
+  </header>
+
+  
+
+    
+    <section id="acasa">
+      <h2>Acasă</h2>
+    </section>
+
+    <section id="oferte">
+  <h2>Oferte speciale</h2>
+  <table border="1">
+    <caption>Ofertele noastre – Octombrie 2025</caption>
+    <thead>
+      <tr>
+        <th>Instrument</th>
+        <th>Model</th>
+        <th>Preț</th>
+        <th>Reducere</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2">Chitară</td>
+        <td>Fender Stratocaster</td>
+        <td>4500 RON</td>
+        <td>10%</td>
+      </tr>
+      <tr>
+        <td>Gibson Les Paul</td>
+        <td>7800 RON</td>
+        <td>15%</td>
+      </tr>
+      <tr>
+        <td>Bass</td>
+        <td>Ibanez SR300</td>
+        <td>3200 RON</td>
+        <td>5%</td>
+      </tr>
+      <tr>
+        <td>Tobe</td>
+        <td>Roland V-Drums</td>
+        <td colspan="2">Promoție specială – preț la cerere</td>
+      </tr>
+      <tr>
+        <td>Pian</td>
+        <td>Yamaha P-45</td>
+        <td>2500 RON</td>
+        <td>12%</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="4">Toate prețurile includ TVA și garanție 2 ani</td>
+      </tr>
+    </tfoot>
+  </table>
+</section>
+
+      
+      <section id="despre-noi">
+        <h3>Despre noi</h3>
+        <p>
+          <b>MusicHub</b> a apărut din pasiunea pentru muzică și dorința de a aduce <b>instrumentele</b> necesare mai aproape de cei care cântă — fie că sunt <b>incepatori</b> sau <b>artiști profesioniști.</b><br><br>
+          Suntem un magazin românesc care colaborează cu producători cunoscuți precum
+          <strong>Yamaha</strong>,
+          <strong>Gibson</strong>,
+          <strong>Fender</strong> și
+          <strong>Roland</strong>, pentru a oferi instrumente de calitate la prețuri accesibile.<br><br></p>
+
+          <blockquote>
+           <em><q>Muzica este limbajul universal al umanității.</q> - Henry Wadsworth Longfellow</em>
+          </blockquote>
+        
+        <p>Pentru mai multe informații despre instrumente muzicale vizitați</p>
+            <a href="https://www.thomann.de/ro/index.html" target="_blank">Thomann</a>.
+        
+    </section>
+
+
+    <section id="categorii_de_produse">
+      <hgroup>
+    
+      <h2>Categorii de produse</h2>
+      <p>Gama noastra de instrumente include:</p>
+      </hgroup>
+
+      <ul>
+        <li>Chitară</li>
+        <li>Bass</li>
+        <li>Tobe</li>
+        <li>Pian</li>
+        <li>Clape</li>
+        <li>Vioară</li>
+
+        <li>Accesorii: amplificatoare, tobe, <abbr title="Disc Jockey">DJ</abbr> controllers</li>
+          </ul>
+        <p>Pentru detalii suplimentare despre construcția chitarei, consultați:
+   <a href="https://ro.wikipedia.org/wiki/Chitar%C4%83#Construc%C8%9Bie">
+   https://ro.wikipedia.org/<wbr>wiki/<wbr>Chitar%C4%83<wbr>#Construc%C8%9Bie
+   </a>
+    </p>
+
+    </section>
+
+        <section id="Galerie">
+      <h2>Galerie</h2>
+       <figure>
+    <a href="imagini/IMG1.jpg">
+      <picture>
+        <source srcset="imagini/IMG1-mica.jpeg" media="(max-width: 600px)">
+        <source srcset="imagini/IMG1-medie.jpeg" media="(max-width: 1024px)">
+        <img src="imagini/IMG1.jpg" 
+             alt="2X Fender Strat" 
+             title="Două chitare Fender Stratocaster Vintage expuse în magazin" 
+             width="600">
+      </picture>
+    </a>
+    <figcaption>
+      Două chitare Fender Stratocaster Vintage expuse în magazin.
+    </figcaption>
+  </figure>
+  <a href="imagini/IMG1.jpg" download="chitara_descarcata.jpg">Descarcă poza chitarei</a>
+
+</section>
+
+<section id="video">
+  <h2>Videoclipuri</h2>
+
+  <div>
+    <a href="https://www.youtube.com/embed/L64lmpfC_sY" target="player">Mastodon – Oblivion (cover)</a> |
+    <a href="https://www.youtube.com/embed/neDVkE44s8s" target="player">Alice in Chains – We Die Young</a> |
+    <a href="https://www.youtube.com/embed/xBWFAPa_F3c" target="player">Metallica – Orion (cover)</a>
+  </div>
+
+  <iframe
+    name="player"
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/L64lmpfC_sY"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+</section>
+
+
+
+
+        
+    
+    <section id="servicii">
+      <h2>Servicii</h2>
+      <ul>
+        <li><strong>Reparații Instrumente:</strong> reglaje, schimbare corzi</li>
+        <li><strong>Închirieri Echipamente:</strong> amplificatoare, tobe</li>
+        <li><strong>Lecții de Muzică:</strong> Chitară, Pian, Tobe, Vioară</li>
+        <li><strong>Consultanță Personalizată:</strong> Alegerea instrumentului potrivit.</li>
+        </ul>
+           <p>Pentru informatii suplimentare vezi la secțiunea<strong> Contact</strong>.</p>
+          
+      
+    </section>
+<section id="faq">
+  <h2>Întrebări frecvente</h2>
+
+  <details>
+    <summary>Ce tipuri de instrumente vinde MusicHUB?</summary>
+    <p>Oferim o gamă variată de chitare, tobe, piane, clape, viori și accesorii.</p>
+  </details>
+
+  <details>
+    <summary>Oferiți garanție la produse?</summary>
+    <p>Da, toate produsele beneficiază de garanție de minimum 24 de luni.</p>
+  </details>
+
+  <details>
+    <summary>Pot returna un produs dacă nu sunt mulțumit?</summary>
+    <p>Da, aveți drept de retur în termen de 14 zile calendaristice, conform legislației.</p>
+  </details>
+
+  <details>
+    <summary>Oferiți lecții de muzică?</summary>
+    <p>Da, oferim lecții de chitară, pian, vioară și tobe pentru toate nivelurile.</p>
+  </details>
+</section>
+
+ 
+    <article id="noutati">
+      <h2>Noutăți</h2>
+      
+     <section id="evenimente">
+      <h2>Evenimente</h2>
+      <ul>
+        <li>
+          <time datetime="2025-11-15T18:00">15 Noiembrie 2025, ora 18:00</time> - 
+          <b>Demo Yamaha</b>: Demonstrație live a noilor chitare Yamaha la magazinul nostru.
+        </li>
+        <li>
+          <time datetime="2025-12-05T17:00">5 Decembrie 2025, ora 17:00</time> - 
+          <b>Atelier de Tobe pentru Începători</b>: Înscrie-te pentru a învăța bazele tobelor.
+        </li>
+        <li>
+             <time datetime="2025-12-20T12:00">20 decembrie 2025, ora 12:00</time> – 
+            <b>Promoții de Crăciun</b>: reduceri speciale și mici cadouri pentru clienți.
+        </li>
+    
+      </ul>
+
+     </section>
+    </article>
+
+    <section id="statistici">
+  <h2>Statistici MusicHUB</h2>
+
+  <p>
+    Participanți confirmați la evenimentul Yamaha Demo (capacitate maximă 100):<br>
+    <meter value="25" min="0" max="100" low="30" high="70" optimum="50">
+      25 din 100
+    </meter>
+  </p>
+
+  <p>
+    Rating oferit de revista „Rock Sound” (din 10):<br>
+    <meter value="9" min="0" max="10" low="3" high="7" optimum="10">
+      9 din 10
+    </meter>
+  </p>
+</section>
+
+
+
+  <footer>
+    <section id="contact">
+      <h2>Contact</h2>
+     <address>
+      E-mail: <a href="alex@musichub.ro">alex@musichub.ro</a><br>
+      Telefon: <a href="tel:+40123456789">+40 772 855 981</a><br>
+      Str. Muzicii nr. 10<br>
+      București, România<br>
+      <a href="https://www.google.com/maps/place/Facultatea+de+Matematică+și+Informatică,+Universitatea+din+București/"
+         target="_blank">
+        Vezi pe Google Maps
+      </a>
+    </address>
+      Chat pe WhatsApp: 
+      <a href="https://wa.me/407723855981" target="_blank">Scrie-ne pe WhatsApp</a>
+      <p><a href="#top">Înapoi la început</a></p>
+      <small>
+    &copy; MusicHUB – Creat la data de 
+    <time datetime="2025-10-26">24 octombrie 2025</time>
+  </small>
+    </section>
+  </footer>
+</body>
+</html>
